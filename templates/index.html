@@ -1,0 +1,67 @@
+
+{% extends 'base.html' %}
+{% load static %}
+
+<style>
+.container{
+    background-color: #FF4136;  
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+</style>
+
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+
+<div class="container" style="
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 25%;
+    top: 55%;
+    transform: translate(-50%, -50%);">
+    
+    <div class="box" style="
+        width: 400px;
+        
+        height: 400px;
+        position: absolute;
+        left: 8.5%;
+        top: 8%;
+        bottom: 8%;
+        right: 8%;">
+
+          <div class="text-center" style="
+            width: 375px;
+            height: 250px;
+            
+            position: absolute;
+            left: 2%;
+            top: 2%;
+            
+            ">
+            
+              <h3 style="font-size: 60px; padding: 10px;">Welcome to <strong style="color: violet;">TSF Bank</strong></h3>
+              
+              <h4 class="text-center">Please Choose Your Service</h4>
+          </div>
+          <div class="box text-center" style="
+              width: 375px;
+              height: 150px;
+              position:absolute;
+              bottom: 3%;
+              ">
+            <a type="button" class="btn btn-outline-danger btn-lg position-center" href="{% url 'customer_details' %}">View Customers</a>
+            
+           
+          </div>
+      </div>
+  </div>
+</div>
+ 
+{% endblock body %}

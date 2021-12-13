@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% block title %}Transaction History
+{% endblock title %}
+{% block body %}
+<section class="content customer">
+<h2 class="text-center"><strong>Transaction History</strong></h2>
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Sender's Name</th>
+      <th scope="col">Sender's Account No.</th>
+      <th scope="col">Sender's Current Balance</th>
+      <th scope="col">Money Deposit</th>
+      <th scope="col">Receiver's Name</th>
+      <th scope="col">Date</th>
+    </tr>
+  </thead>
+  {% for details in history %}
+  <tbody>
+    <tr>
+      <td>{{details.source_name}}</td>
+      <td>{{details.source_acc_no}}</td>
+      <td>{{details.Current_balance}}</td>
+      <td>{{details.money_deposit}}</td>
+      <td>{{details.destination_name}}</td>
+      <td>{{details.date}}</td> 
+    </tr>
+  </tbody>
+  {% endfor %}
+</table>
+</section>
+{% endblock body %}
+
+
