@@ -1,4 +1,4 @@
-# Basic_Bank_System
+# Basic_Banking_System
 
 ### Project under internship at The Sparks Foundation
 
