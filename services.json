@@ -1,0 +1,78 @@
+[
+    {
+        "id" : "1",
+      "University":  "Stanford University ",
+      "Course":  "MS IN COMPUTER SCIENCE",
+      "Duration": "2 years",
+      "Description" :"Stanford meets the full financial need of every admitted undergrad who qualifies for assistance. Tuition is covered for undergrads with family incomes under $150,000. Tuition, room and board are covered for undergrads with family incomes below $75,000.",
+      "Country" :  "U.S.",
+      "State"  : "California"
+    },
+    {
+        "id" : "2",
+        "University":  "Princeton University" ,
+        "Course":  "MS IN COMPUTER SCIENCE",
+        "Duration": "1.5 -2 years",
+        "Description" :"Princeton University is a private institution that was founded in 1746. It has a total undergraduate enrollment of 5,321 (fall 2021), its setting is suburban, and the campus size is 600 acres. It utilizes a semester-based academic calendar. ",
+        "Country" :  "U.S.",
+        "State"  : "New Jersey"
+    },
+    {
+        "id" : "3",
+        "University":  "University of Cambridge ",
+        "Course":  "Artificial Intelligence.",
+        "Duration": "1-2 years",
+        "Description" :"Cambridge is one of the best universities in the world. Home to over 23,000 students from more than 140 countries, we offer undergraduate degree courses in the arts and humanities, social sciences, sciences and engineering.",
+        "Country" :  "England",
+        "State"  : "Cambridgeshire"
+    },
+    {
+        "id" : "4",
+        "University":  "University of Melbourne ",
+        "Course":  "MS IN COMPUTER SCIENCE",
+        "Duration": "2 years",
+        "Description" :"The University of Melbourne is equipped with state-of-the art campuses. We’re creating a range of sustainable facilities and precincts to enable ground-breaking discovery and collaboration through the 21st century.",
+        "Country" :  "Australia",
+        "State"  : "Victoria"
+    },
+    {
+        "id" : "5",
+        "University":  "University of Toronto ",
+        "Course":  "Statistics",
+        "Duration": "2 years",
+        "Description" :"The University of Toronto offers over 700 undergraduate and 200 graduate programs. In all major rankings, the university consistently ranks in the top ten public universities in the world and as the top university in the country",
+        "Country" :  "Canada",
+        "State"  : " Ontario"
+    },
+    {
+        "id" : "6",
+        "University":  "Stanford University ",
+        "Course":  "MS IN COMPUTER SCIENCE",
+        "Duration": "",
+        "Description" :"",
+        "Country" :  "",
+        "State"  : ""
+    },
+    {
+        "id" : "7",
+        "University":  "University of Oxford",
+        "Course":  "Software and Systems Security ",
+        "Duration": " 2-4 years",
+        "Description" :"The University of Oxford is, and intends to remain, a thriving, cosmopolitan community of scholars and students united in our commitment to education and research.",
+        "Country" :  "England",
+        "State"  : "UK"
+    },
+    {
+        "id" : "8",
+        "University":  "The University of Sydney ",
+        "Course":  "MS IN COMPUTER SCIENCE",
+        "Duration": "2 years",
+        "Description" :"The University of Sydney consistently ranked in the top 50 universities in the world, and are known internationally as leaders in education, research, student experience and graduate employability.",
+        "Country" :  "Australia.",
+        "State"  : "Sydney"
+    }
+    
+    
+  ]
+
+  
